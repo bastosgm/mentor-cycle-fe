@@ -1,3 +1,5 @@
+import "tailwindcss/tailwind.css";
+
 export const parameters = {
   backgrounds: {
     default: "light",
@@ -9,4 +11,7 @@ export const parameters = {
       date: /Date$/,
     },
   },
+};
+export const globalTypes = {
+  darkMode: true,
 };
